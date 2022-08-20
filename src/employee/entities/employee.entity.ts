@@ -11,4 +11,11 @@ export class Employee {
   approveLeave: number;
   rejectLeave: number;
   pendingLeave: number;
+  leave: [
+    {
+      status: string;
+      leaveDate: Date;
+      comment: string;
+    },
+  ];
 }

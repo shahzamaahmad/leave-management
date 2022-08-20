@@ -18,6 +18,13 @@ export class EmployeeService {
       approveLeave: 0,
       rejectLeave: 0,
       pendingLeave: 0,
+      leave: [
+        {
+          status: '',
+          comment: '',
+          leaveDate: new Date(),
+        },
+      ],
     },
     {
       name: 'Mohd Zaid',
@@ -32,6 +39,13 @@ export class EmployeeService {
       approveLeave: 0,
       rejectLeave: 0,
       pendingLeave: 0,
+      leave: [
+        {
+          status: '',
+          comment: '',
+          leaveDate: new Date(),
+        },
+      ],
     },
     {
       name: 'Debi Mishra',
@@ -46,6 +60,13 @@ export class EmployeeService {
       approveLeave: 0,
       rejectLeave: 0,
       pendingLeave: 0,
+      leave: [
+        {
+          status: '',
+          comment: '',
+          leaveDate: new Date(),
+        },
+      ],
     },
   ];
   getEmployeeByUsername(username: string): Employee {
